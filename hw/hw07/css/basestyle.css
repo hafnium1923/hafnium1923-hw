@@ -47,13 +47,6 @@
         margin: 30px;
     }
    
-    a:link {
-        color: #826cff;
-        text-decoration: underline;
-      }
-      a:visited{
-        color:  #654aff;
-      }
     
       table, td, th{
         border-collapse:collapse;
