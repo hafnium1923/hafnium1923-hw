@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LogIn</title>
+    <link type="text/css" rel="stylesheet" href="./css/basestyle.css"></link>
+    
+</head>
+
+<body>
+    <div id="top">
+    <h1><a href="./hw07.html">Movie reservation</a></h1>
+    </div>
+    <div class="info"><a href="./login.html">LogIn</a> | <a href="./joinus.html">JoinUs</a> | <a href="./mypage.html">Mypage</a></div>
+    <div id="menu">
+        <ul>
+            <<a href="./list.html"><li>list</li></a>
+            <li>|</li>
+            <a href="./q&a.html"<li>Q&A</li></a>
+        </ul>
+    </div>
+    <h2>로그인</h2>
+    <center>
+    <table>
+        <tr>
+            <td colspan="2" class="noitce">회원님의 아이디와 비밀번호를 정확히 입력하세요.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <select name="type">
+                    <option value="1" selected>개인</option>
+                    <option value="2">기업</option>
+                    <option value="3">관리자</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="id">아이디</td>
+		<td>
+		<input type="text" class="color" name="id" size="20" maxlength="20">
+		</td>
+        </tr>
+        <tr>
+            <td class="id">비밀번호</td>
+            <td>
+            <input type="password" class="color" name="pwd" size="20" maxlength="20">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" value="로그인">
+                <input type="button" value="가입하기" onclick="document.location='joinus.html'">
+                </td>
+        </tr>
+    </table>
+</center>
+</body>
+
+</html>
